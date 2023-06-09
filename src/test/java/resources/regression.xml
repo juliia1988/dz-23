@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation" parallel="methods" thread-count="5">
+    <listeners><listener class-name="listners.ValidValuesTestListener"></listener></listeners>
+
+    <test name="Regression for all functionality">
+        <classes>
+            <class name="operations.TestAgeBoundaryValues"/>
+            <class name="operations.TestAgeValid"/>
+            <class name="operations.TestSurnameChange"/>
+        </classes>
+
+    </test>
+</suite>
