@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation" parallel="methods" thread-count="5">
+
+    <test name="Smoke for age validation functionality">
+        <classes>
+            <class name="operations.TestAgeValid"/>
+        </classes>
+
+    </test>
+</suite>

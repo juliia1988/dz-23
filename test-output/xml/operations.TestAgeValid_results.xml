@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dz-23"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.456">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testAgeIsValid"
+                time="0.456"
+                classname="operations.TestAgeValid">
+            </testcase>
+</testsuite>

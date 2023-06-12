@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dz-23"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.079">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testWomanRetired"
+                time="0.002"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testWomanNotRetired"
+                time="0.002"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testManRetired"
+                time="0.003"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testManNotRetired"
+                time="0.072"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+</testsuite>
