@@ -4,21 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6ed6af-ea60-4847-889c-f8ed4d01c135" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="ff6ed6af-ea60-4847-889c-f8ed4d01c135" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/operations/TestDbValuesExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DBReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/xml/operations.TestAgeValid_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataproviders/TestDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataproviders/TestDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/operations/TestAgeBoundaryValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/operations/TestAgeBoundaryValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,17 +52,145 @@
     </option>
   </component>
   <component name="ProjectId" id="2QxnZGpAQjzcI07lFbKGfYHissF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olenavoloshyna/IdeaProjects/dz-23/src/test/java/utils/utils&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/utils/utils" />
+      <recent name="$PROJECT_DIR$/src/test/java/utils" />
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/operations" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="models" />
+      <recent name="listners" />
+      <recent name="dataproviders" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAgeBoundaryValues">
+    <configuration name="TestAgeBoundaryValues" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAgeBoundaryValues.testManNotRetired" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
+      <option name="METHOD_NAME" value="testManNotRetired" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAgeBoundaryValues.testManRetired" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
+      <option name="METHOD_NAME" value="testManRetired" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAgeBoundaryValues.testWomanNotRetired" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
+      <option name="METHOD_NAME" value="testWomanNotRetired" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAgeBoundaryValues.testWomanRetired" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
+      <option name="METHOD_NAME" value="testWomanRetired" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestAgeBoundaryValues" />
+        <item itemvalue="TestNG.TestAgeBoundaryValues.testWomanNotRetired" />
+        <item itemvalue="TestNG.TestAgeBoundaryValues.testManRetired" />
+        <item itemvalue="TestNG.TestAgeBoundaryValues.testManNotRetired" />
+        <item itemvalue="TestNG.TestAgeBoundaryValues.testWomanRetired" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +200,41 @@
       <option name="presentableId" value="Default" />
       <updated>1686304153729</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1686305253424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686305253424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dz_23$DBReader.ic" NAME="DBReader Coverage Results" MODIFIED="1686323669025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>utils.*</FILTER>
+    </SUITE>
   </component>
 </project>

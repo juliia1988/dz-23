@@ -25,22 +25,22 @@ public class TestAgeBoundaryValues {
 
     @Test(dataProvider = "age for woman that not Retired", dataProviderClass = TestDataProvider.class)
     public void testWomanNotRetired(int num1, int num2) {
-        Assert.assertEquals(woman.isRetired(num1 | num2), 0 > num1 && num2 < 60, "Retired age works with mistakes");
+        Assert.assertNotEquals(woman.isRetired(num1 | num2), num1 >= 0 && num2 < 60, "Retired age works with mistakes");
     }
 
     @Test(dataProvider = "age for woman that Retired", dataProviderClass = TestDataProvider.class)
-    public void testWonamRetired(int num3, int num4) {
-        Assert.assertEquals(woman.isRetired(num3 | num4), num3 >= 60 && num4 >= 60, "Retired age works with mistakes");
+    public void testWomanRetired(int num3, int num4) {
+        Assert.assertEquals(woman.isRetired(num3 | num4), num3 >= 0 && num4 >= 60, "Retired age works with mistakes");
     }
 
     @Test(dataProvider = "age for man that Not Retired", dataProviderClass = TestDataProvider.class)
     public void testManNotRetired(int num5, int num6) {
-        Assert.assertEquals(man.isRetired(num5 | num6), 0 > num6 && num6 >= 65, "Retired age works with mistakes");
+        Assert.assertNotEquals(man.isRetired(num5 | num6), num5 >= 0 && num6 < 65, "Retired age works with mistakes");
     }
 
     @Test(dataProvider = "age for man that Retired", dataProviderClass = TestDataProvider.class)
     public void testManRetired(int num7, int num8) {
-        Assert.assertEquals(man.isRetired(num7 | num8), num7 >= 65 && num8 >= 65, "Retired age works with mistakes");
+        Assert.assertEquals(man.isRetired(num7 | num8), num7 >= 0 && num8 >= 65, "Retired age works with mistakes");
     }
 
 }

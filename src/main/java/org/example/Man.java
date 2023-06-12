@@ -7,8 +7,8 @@ public class Man extends Person {
     }
 
     @Override
-    public int getAge() {
-        return super.getAge();
+    public int getAge(int num1) {
+        return super.getAge(num1);
     }
 
     @Override
@@ -18,7 +18,7 @@ public class Man extends Person {
     }
 
     public boolean isRetired(int age){
-        if (age >= 65){
+        if (age > 65){
             System.out.println("Na pensyi: " + getFirstName());
             return true;
         }

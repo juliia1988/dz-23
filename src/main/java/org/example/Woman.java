@@ -7,8 +7,8 @@ public class Woman extends Person {
     }
 
     @Override
-    public int getAge() {
-        return super.getAge();
+    public int getAge(int num1) {
+        return super.getAge(num1);
     }
 
     @Override
